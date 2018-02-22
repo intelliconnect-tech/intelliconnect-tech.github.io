@@ -388,7 +388,7 @@ a:hover {
   .slides_fade .slides-container .image4 {
     /*background-image:url(../images/Connected-Intelligence.jpg);*/
     /*background-image:url(../images/webcoffee-twitter-background.jpg);*/
-    background-image:url(../images/climbing-3.jpg);
+    background-image:url(/images/climbing-3.jpg);
   }
 
   .home-arrow {
