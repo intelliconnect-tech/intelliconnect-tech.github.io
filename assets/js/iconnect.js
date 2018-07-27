@@ -6,8 +6,7 @@ $(document).ready(function() {
     $("#contactus").validate({
         rules: {
             "name": {
-                required: true,
-                minlength: 5
+                required: true
             },
             "email": {
                 required: true,
