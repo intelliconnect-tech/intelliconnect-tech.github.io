@@ -328,7 +328,8 @@ h1, h2, h3, h4, h5, h6{
 
 
 #services {
-  background-image: url(../images/blue_mac2.jpg);
+	/*background-image: url(../images/evan-kirby-90543-unsplash-blur.jpg);*/
+	background-image: url(../images/blue_mac2.jpg);
 	/*background-image: url(../images/evan-kirby-90543-unsplash.jpg);*/
 	color: white;
 }
@@ -372,7 +373,7 @@ h1, h2, h3, h4, h5, h6{
 
 .recent-work span{
 	margin-top: -18px;
-	opacity: 0;
+	opacity: 0.7;
 	position: relative;
 	z-index: 1;
 }
@@ -384,7 +385,7 @@ h1, h2, h3, h4, h5, h6{
     left: 0;
     top: 0;
     content: '';
-    opacity: 0;
+    opacity: 0.6;
     -o-transition: all .2s;
 	-ms-transition: all .2s;
 	-moz-transition: all .2s;
