@@ -18,14 +18,14 @@ $(document).ready(function() {
         },
         messages: {
             "name": {
-                required: "Please, enter a name"
+                required: "Please enter your name."
             },
             "email": {
-                required: "Please, enter an email",
+                required: "Please enter your business email.",
                 email: "Email is invalid"
             },
             "query": {
-                required: "Please, write something"
+                required: "Please add a note"
             }
         },
         submitHandler: function (event) { // for demo
@@ -45,7 +45,7 @@ $(document).ready(function() {
                 $('textarea[name=query]').val('');
                 $('input[name=email]').val('');
                 $('input[name=name]').val('');
-                $.notify("Thank you for connecting with us, We will contact you soon", "info");
+                $.notify("Thank you for your interest. You will be hearing from our team soon.", "info");
             }).fail(function (error) {
                 $('textarea[name=query]').val('');
                 $('input[name=email]').val('');
