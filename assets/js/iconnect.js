@@ -38,10 +38,13 @@ $(function() {
             }
         },
         submitHandler: function (event) {
+            $("#loader").append('<img height="30px" width="30px;" src="../images/search-loader.gif">')
             var captchaVal = $("#captchaInput").val();
             if ((captchaVal !== Code)) {
                 captchaCode();
                 $("#captchaInput").val('');
+                // $('#loader').html('<img src="');
+                $("#loader img").remove();
                 $.notify("Please Enter valid captcha", "error");
             }
 
@@ -65,11 +68,13 @@ $(function() {
                     $('input[name=name]').val('');
                     captchaCode();
                     $("#captchaInput").val('');
+                    $("#loader img").remove();
                     $.notify("Thank you for connecting with us, We will contact you soon", "info");
                 }).fail(function (error) {
                     $('textarea[name=query]').val('');
                     $('input[name=email]').val('');
                     $('input[name=name]').val('');
+                    $("#loader img").remove();
                     $.notify("There might be internal problem", "error");
                 });
             }
