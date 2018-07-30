@@ -606,7 +606,7 @@ h1, h2, h3, h4, h5, h6{
 	margin-bottom:10px;
 }
 input.captcha {
-	background: url(http://img3.uploadhouse.com/fileuploads/17737/17737011310213e71805ecf2292144cbbecf42ad.png) no-repeat 10px 9px;
+	background: url(../images/refresh-img3.png) no-repeat 10px 9px;
 }
 #form input.submit {
 	cursor: pointer;
@@ -623,7 +623,7 @@ input.captcha {
 	width: 44px;
 }
 #captcha input{
-	background: url(http://img3.uploadhouse.com/fileuploads/17737/17737011310213e71805ecf2292144cbbecf42ad.png) no-repeat scroll 0 0 transparent;
+	background: url(../images/refresh-img3.png) no-repeat scroll 0 0 transparent;
 	margin: 0px 0 0;
 	padding: 0;
 	border: medium none;
