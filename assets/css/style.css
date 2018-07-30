@@ -574,3 +574,60 @@ h1, h2, h3, h4, h5, h6{
 .notifyjs-corner {
 	top: 70px !important;
 }
+
+
+
+
+/*captcha css*/
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/** {*/
+/*margin: 0;*/
+/*padding: 0*/
+/*}*/
+#form h2 {
+	font: 48px 'Bree Serif', Georgia, serif;
+}
+#form span {
+	display:block;
+	float:left;
+	width:100px;
+	padding-top:5px;
+	font: 14px/16px'Bree Serif', Georgia, serif;
+}
+#form input {
+	float:left;
+	width:255px;
+	border:0px;
+	/*color:#F1F1F1;*/
+	padding:10px 10px 10px 30px;
+	font: 11px/20px'Open Sans', Verdana, Helvetica, sans-serif;
+	margin-bottom:10px;
+}
+input.captcha {
+	background: url(http://img3.uploadhouse.com/fileuploads/17737/17737011310213e71805ecf2292144cbbecf42ad.png) no-repeat 10px 9px;
+}
+#form input.submit {
+	cursor: pointer;
+	width:85px;
+	height:30px;
+	float:right;
+	padding:0px 0px 5px 0px;
+	margin:10px 16px 0px 0px;
+	background:#222222;
+	color:#F1F1F1;
+	font: 14px/16px'Bree Serif', Georgia, serif;
+}
+#captcha span{
+	width: 44px;
+}
+#captcha input{
+	background: url(http://img3.uploadhouse.com/fileuploads/17737/17737011310213e71805ecf2292144cbbecf42ad.png) no-repeat scroll 0 0 transparent;
+	margin: 0px 0 0;
+	padding: 0;
+	border: medium none;
+	cursor: pointer;
+	width: 15px;
+
+}

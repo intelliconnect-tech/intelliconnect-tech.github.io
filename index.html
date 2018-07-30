@@ -267,15 +267,27 @@
 							<h1>Transform your business</h1>
 							<!-- <p>Feel free to drop us a line.</p> -->
 						</header>
-						<form method="POST" role="form" id="contactus" autocomplete="off">
+						<form method="POST" role="form" id="contactForm" autocomplete="off">
 							<div class="form-group">
-								<input type="name" class="form-control form-control-white" id="name" name="name" placeholder="Your Name." autocomplete="false" required>
+								<input type="text" class="form-control form-control-white" id="name" name="name" placeholder="Your Name." autocomplete="false" required>
 							</div>
 							<div class="form-group">
 								<input type="email" class="form-control form-control-white" id="email" name="email" placeholder="Your Business email." autocomplete="false" required>
 							</div>
 							<div class="form-group">
 								<textarea class="form-control form-control-white" id="query" name="query" placeholder="Send us a note." autocomplete="false" required></textarea>
+							</div>
+							<div class="form-group">
+								<div class="row">
+									<div class="col-sm-3" style="padding:0px;margin-top:10px;">
+										<span id="captcha"></span>
+										<div class='row' style='margin-top:4px;'>
+										</div>
+									</div>
+									<div class="col-sm-9">
+										<input type="text"  name="captcha" id="captchaInput" class="captcha form-control form-control-white" maxlength="4" placeholder="Enter Captcha Code." tabindex="3" style="width:100%;padding-left:35px;">
+									</div>
+								</div>
 							</div>
 							<input type="submit" class="btn btn-o-white" value="Contact Us">
 						</form>
